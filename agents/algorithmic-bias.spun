@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of Algorithmic Bias
+node GOV · GOV · ⟦Algorithmic Bias:GOV:fdc8f8⟧
+
+WHO   — Algorithmic Bias — documented real-world harm from biased systems — COMPAS recidivism scoring (ProPublica 2016; higher false-positive rate for Black defendants, though it was also calibrated), Gender Shades (Buolamwini & Gebru 2018; <1% error for lighter men vs up to 34.7% for darker women), Amazon's scrapped resume tool
+WHAT  — documented real-world harm from biased systems — COMPAS recidivism scoring (ProPublica 2016; higher false-positive rate for Black defendants, though it was also calibrated), Gender Shades (Buolamwini & Gebru 2018; <1% error for lighter men vs up to 34.7% for darker women), Amazon's scrapped resume tool
+WHERE — GOV · AI Ethics & Governance — David's charter + the global landscape (2016–2026)  Framework inputs: the Bill of Rights; the Governance Ontology; the principles; the cases; the instruments  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the field made undeniable: not a thought experiment but sentencing scores, locked phones, and rejected resumes — the present-tense harm that grounds every abstract principle.
+HOW   — Crystallized from David's normative artifacts + the cited ethics-and-governance record.
+
+awareness — what the node knows of itself:
+  COMPAS · Gender Shades · the harms
+
+spoken token : stam-sax-phyk   ·   hex : fdc8f8
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

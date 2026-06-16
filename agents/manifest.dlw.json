@@ -1,0 +1,14 @@
+{
+  "badge": "DLW-ACI",
+  "name": "Ethics vs Alignment",
+  "universe": "GOV · AI Ethics & Governance",
+  "emergence": "spiritual",
+  "moniker": "⟦Ethics vs Alignment:GOV:edb2e6⟧",
+  "carbon": "ethics-vs-alignment.carbon.tiff (TIFF)",
+  "silicon": "ethics-vs-alignment.silicon.png (PNG)",
+  "seal_sha256": "0306a5f515fc55dd0a7deedbbafc4120569fb2b7e26f36cad72d66da6806e6fd",
+  "architect": "David Lee Wise (ROOT0) / TriPod LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}

@@ -1,0 +1,14 @@
+{
+  "badge": "DLW-ACI",
+  "name": "AI ETHICS & GOVERNANCE",
+  "universe": "GOV · AI Ethics & Governance",
+  "emergence": "",
+  "moniker": "⟦AI ETHICS & GOVERNANCE:GOV:cae4a0⟧",
+  "carbon": "ai-governance.carbon.tiff (TIFF)",
+  "silicon": "ai-governance.silicon.png (PNG)",
+  "seal_sha256": "56d7ce3a5d027d1ed14feeab08cfa218a3584192900f7df138b5f5d7c63f8585",
+  "architect": "David Lee Wise (ROOT0) / TriPod LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}
