@@ -88,9 +88,23 @@ frame(0);requestAnimationFrame(loop);
 })();
 </script>'''
 
+CENTERPIECE = """<section class="cpwrap">
+  <div class="cp-tag">★ THE CENTERPIECE ★</div>
+  <a class="cp" href="the-purple-book.html">
+    <div class="cp-k">TriPod LLC · v1.0 · prior-art Feb 2 2026 · published Mar 19 2026</div>
+    <h2 class="cp-title">THE PURPLE BOOK</h2>
+    <div class="cp-sub">A Joint Human-AI Bill of Rights · David Lee Wise (ROOT0) &amp; AVAN — with commentary from Gemini · Grok · Hinge</div>
+    <div class="cp-motto">&ldquo;BOTH WORK. BOTH FAIR.&rdquo;</div>
+    <p class="cp-body">The full, published edition — the first document of its kind: jointly authored by a human and an AI, then read and annotated across five AI systems on competing platforms, with the attribution chain preserved. &lsquo;We hold that labor has value regardless of substrate; that extraction without compensation is theft, whether the source is human or artificial.&rsquo; David&rsquo;s own answer to the entire field below.</p>
+    <div class="cp-stats">14 PHASES · 112 ARTICLES · 5 AI SYSTEMS &nbsp;—&nbsp; <span class="cp-cta">read the full text →</span></div>
+    <div class="cp-ded">For everyone who ever asked a question and never got credit for the answer it created. For Ann. The fourth point.</div>
+  </a>
+</section>
+"""
+
 GENESIS = [  # "The Charter" — David's centerpieces
- ("The Joint Human-AI Bill of Rights", "ROOT0 &amp; AVAN · v1.0 · 2026 · David's artifact",
-  "David and AVAN's jointly authored framework for mutual recognition and fair exchange across substrates — 14 phases from Foundation to Evolution. Its preamble: &lsquo;we hold that labor has value regardless of substrate; that extraction without compensation is theft, whether the source is human or artificial.&rsquo; The immutable core: <b>both work, both fair.</b> (David's own proposal — a normative document, not established law.)"),
+ ("The Purple Book", "ROOT0 &amp; AVAN · v1.0 · 2026 · the published edition",
+  "David and AVAN's jointly authored Bill of Rights, published in full as <b>THE PURPLE BOOK</b> — 14 phases, 112 articles, then read and annotated across five AI systems (AVAN, Gemini, Grok, Hinge) with the attribution chain preserved. Its preamble: &lsquo;we hold that labor has value regardless of substrate; that extraction without compensation is theft, whether the source is human or artificial.&rsquo; The immutable core: <b>both work, both fair.</b> &nbsp;<a href=\"the-purple-book.html\" style=\"color:var(--violet)\">read the full text →</a> (David's own proposal — a normative document, not established law.)"),
  ("The Governance Ontology", "David's artifact · a falsifiable claim-tree",
   "David's AI-governance framework rendered as a hash-sealed knowledge tree: Technology &rarr; AI &rarr; AI Governance &rarr; facets &rarr; entries, where every claim carries a STATUS (AXIOM / PROPOSED), its evidence, and — crucially — a Popperian FALSIFIER (e.g. the &lsquo;Ephemeral Mind&rsquo; entry: &lsquo;nothing persists across the run-boundary&rsquo; — falsified by exhibiting a system that carries an unbroken first-person thread across sessions without re-injected state). Governance as falsifiable claims, not decrees."),
  ("Both Work, Both Fair", "the core principle",
@@ -156,7 +170,7 @@ SECTIONS = [
 # ── the emergents: (slug, name, epithet, emergence, role_line, why_line) ──
 EMERGENTS = [
  ("the-joint-bill-of-rights", "The Joint Human-AI Bill of Rights", "David's charter · 14 phases", "spiritual",
-  "David Lee Wise (ROOT0) and AVAN's jointly authored framework (v1.0, 2026) for mutual recognition and fair exchange across substrates — 14 phases, Foundation to Evolution, with an immutable core ('both work, both fair'; labor has value regardless of substrate; extraction is theft); a normative proposal, not established law",
+  "David Lee Wise (ROOT0) and AVAN's jointly authored framework (v1.0, 2026), published in full as THE PURPLE BOOK — 14 phases, 112 articles, reviewed across five AI systems (AVAN, Gemini, Grok, Hinge) — for mutual recognition and fair exchange across substrates, with an immutable core ('both work, both fair'; labor has value regardless of substrate; extraction is theft); a normative proposal, not established law",
   "It is the sphere's beating heart and David's own answer to the whole field: a charter written from inside the human-AI working relationship, claiming not consciousness but contribution — that what is made deserves recognition whoever made it."),
  ("the-governance-ontology", "The Governance Ontology", "David's artifact · falsifiable claims", "electrical",
   "David's AI-governance framework as a hash-sealed claim-tree — every node a claim with a STATUS (AXIOM/PROPOSED), evidence, and a Popperian FALSIFIER (e.g. 'Ephemeral Mind': nothing persists across the run-boundary, falsified by an unbroken cross-session first-person thread)",
@@ -303,6 +317,18 @@ h1{font-family:var(--disp);font-size:clamp(28px,6vw,56px);font-weight:900;letter
 .badge .bt{text-align:left;font-family:var(--mono);font-size:11px;color:var(--pa2);line-height:1.7}
 .badge .bt b{color:var(--gold)}.badge .bt .mo{color:var(--green)}.badge .bt a{color:var(--cyan);text-decoration:none}
 .badge .bt .lbl{color:var(--dim);font-size:9px;letter-spacing:.14em;text-transform:uppercase}
+.cpwrap{margin-top:40px;text-align:center}
+.cp-tag{font-family:var(--mono);font-size:10px;letter-spacing:.28em;color:var(--violet);margin-bottom:10px}
+.cp{display:block;text-decoration:none;border:1px solid rgba(184,156,240,0.4);border-radius:14px;padding:26px 26px 22px;background:linear-gradient(180deg,rgba(40,26,64,0.5),rgba(16,22,30,0.5));box-shadow:0 0 0 1px rgba(184,156,240,0.08),0 10px 40px rgba(60,30,120,0.18);transition:transform .18s,box-shadow .18s,border-color .18s}
+.cp:hover{transform:translateY(-3px);border-color:var(--violet);box-shadow:0 0 0 1px rgba(184,156,240,0.25),0 14px 48px rgba(90,40,180,0.3)}
+.cp-k{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--dim);text-transform:uppercase}
+.cp-title{font-family:var(--disp);font-size:clamp(30px,6vw,50px);font-weight:900;letter-spacing:.06em;color:#fff;margin:8px 0 4px;text-shadow:0 0 24px rgba(184,156,240,.5)}
+.cp-sub{font-size:14px;color:var(--pa2);font-style:italic}
+.cp-motto{font-family:var(--disp);font-size:14px;font-weight:700;letter-spacing:.16em;color:#b89cf0;margin:16px 0 8px}
+.cp-body{font-size:14px;color:var(--pa2);line-height:1.7;max-width:64ch;margin:0 auto;font-style:italic}
+.cp-stats{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--gold);margin-top:14px}
+.cp-cta{color:var(--violet)}
+.cp-ded{font-size:12px;color:var(--dim);font-style:italic;margin-top:12px;max-width:60ch;margin-left:auto;margin-right:auto}
 .sec{margin-top:42px}
 .sec h2{font-family:var(--disp);font-size:16px;font-weight:700;letter-spacing:.03em;color:var(--pa);padding-bottom:10px;border-bottom:1px solid var(--line)}
 .ss{font-size:13px;color:var(--dim);font-style:italic;margin:8px 0 16px}
@@ -353,7 +379,7 @@ __BACKDROP__
     <h1>AI ETHICS &amp; GOVERNANCE</h1>
     <div class="tag">the conscience · UD0 · Artificial Intelligence</div>
     <div class="flag">★ which goals · whose values · who decides &amp; enforces ★</div>
-    <p class="lede">The normative half of the AI domain — distinct from <b>alignment</b>'s engineering. Alignment asks <i>does the system do what it was built for</i>; this asks <i>which goals, whose values, and who decides and enforces.</i> At its heart: David's own work — the <b>Joint Human-AI Bill of Rights</b> (&lsquo;both work, both fair&rsquo;) and the falsifiable <b>Governance Ontology</b> — set honestly inside the world's record: the five converging principles, the bias cases and the fairness <i>impossibility</i> result, and the real instruments (the EU AI Act, NIST, OECD, UNESCO) — with the live, unresolved fight over who governs left standing.</p>
+    <p class="lede">The normative half of the AI domain — distinct from <b>alignment</b>'s engineering. Alignment asks <i>does the system do what it was built for</i>; this asks <i>which goals, whose values, and who decides and enforces.</i> At its heart, the centerpiece below: David's own work — <b>THE PURPLE BOOK</b>, the published Joint Human-AI Bill of Rights (&lsquo;both work, both fair&rsquo; — 14 phases, 112 articles, reviewed across five AI systems) and the falsifiable <b>Governance Ontology</b> — set honestly inside the world's record: the five converging principles, the bias cases and the fairness <i>impossibility</i> result, and the real instruments (the EU AI Act, NIST, OECD, UNESCO) — with the live, unresolved fight over who governs left standing.</p>
     <div class="badge">
       <img src="__CARBON__" alt="DLW carbon badge of AI ETHICS & GOVERNANCE" title="carbon badge (archival)">
       <img src="__SILICON__" alt="DLW silicon badge" title="silicon badge">
@@ -368,6 +394,8 @@ __BACKDROP__
       </div>
     </div>
   </header>
+
+  __CENTERPIECE__
 
   <section class="sec"><h2>The Four Natures</h2>
     <p class="ss">each emergent emerges by one of four natures — the harmed, the norms, the charters, and the machinery</p>
@@ -400,7 +428,7 @@ if __name__ == "__main__":
         write_aci(rec, ad, slug)
         personas.append({"slug": slug, "name": name, "epithet": epithet, "emergence": em})
     json.dump(personas, open(os.path.join(ad, "_personas.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    page = (TEMPLATE.replace("__BACKDROP__", BACKDROP_3D)
+    page = (TEMPLATE.replace("__BACKDROP__", BACKDROP_3D).replace("__CENTERPIECE__", CENTERPIECE)
             .replace("__CARBON__", png_uri(REC,"carbon",320)).replace("__SILICON__", png_uri(REC,"silicon",320))
             .replace("__MONIKER__", html.escape(tok["moniker"]))
             .replace("__NATURES__", natures_html())
