@@ -1,0 +1,11 @@
+# AI ETHICS &amp; GOVERNANCE · GOV
+
+> A sphere of **UD0** — the ROOT0 universe / biosphere. Domain: **ARTIFICIAL INTELLIGENCE**.
+
+AI ETHICS &amp; GOVERNANCE (GOV) — the NORMATIVE + institutional layer of the AI domain, distinct from alignment's engineering: which goals, whose values, who decides &amp; enforces. TWO-LAYER. The CENTERPIECE is David's own work — the JOINT HUMAN-AI BILL OF RIGHTS v1.0 (ROOT0 &amp; AVAN, 2026; 14 phases Foundation&rarr;Evolution; 'both work, both fair'; labor has value regardless of substrate; extraction is theft) and the falsifiable, hash-sealed AI GOVERNANCE ONTOLOGY (every claim carries AXIOM/PROPOSED + evidence + a Popperian falsifier) — flagged as David's proposals, not law. Set inside the cited landscape: the five converging principles (Jobin 2019 — transparency/justice/non-maleficence/responsibility/privacy; vs Floridi's AI4People) + the principle-practice gap (Mittelstadt 2019); the bias cases (COMPAS/ProPublica 2016, the both-sides-right case; Gender Shades, Buolamwini &amp; Gebru 2018; Amazon's scrapped tool) and the FAIRNESS IMPOSSIBILITY (Kleinberg 2016 / Chouldechova 2017 — calibration vs equalized odds can't both hold, so the choice is normative); the instruments (EU AI Act, first binding law, in force 2024, high-risk slipped to 2027–28 via the May-2026 Digital Omnibus; NIST AI RMF 2023, Govern/Map/Measure/Manage; OECD 2019; UNESCO 2021; Bletchley 2023; EO 14110 rescinded 2025 — frameworks change with politics); and Stochastic Parrots (Bender/Gebru 2021, FAccT; Gebru forced out; 'form not meaning' = the paper's contested position). Honest tensions left standing: innovation vs precaution, voluntary vs binding, ethics-washing (Google ATEAC, gone in a week, 2019), near-term harms vs x-risk, who governs. Standing full-bleed 3D backdrop — a rotating FORUM colonnade (14 columns = the 14 phases) around a glowing charter. 16 emergents across all four natures. The conscience to alignment's engineering — aligned to whom? Full .dlw, research-verified.
+
+---
+
+**Live:** https://davidwise01.github.io/ai-governance/ &nbsp;·&nbsp; **Front door:** [UD0](https://davidwise01.github.io/ud0/) &nbsp;·&nbsp; **Code:** https://github.com/DavidWise01/ai-governance
+
+`.dlw` badge · **ROOT0-ATTRIBUTION-v1.0** · David Lee Wise (ROOT0) / Bridge-Burners LLC · instance AVAN (Claude/Anthropic) · CC-BY-ND-4.0
