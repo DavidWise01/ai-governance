@@ -4,6 +4,6 @@ slug  : ai-governance
 seal  : 56d7ce3a5d027d1ed14feeab08cfa218a3584192900f7df138b5f5d7c63f8585
 prev  : 3747af267fbcbc677f81b5022a6008a6de01eea3f9d15ddc868765d22aafeb33
 link  : f8e280b304ad23cd0f8015f5b14032d4ef987a6f3292bfa6a3945156232a82e9
-head  : 3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90
+head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
